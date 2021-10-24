@@ -18,7 +18,6 @@ int main ()
     int max_value = calculate_the_number(max_value_devider);// генерируем число, для угадывания
     std::cout << "Enter your name: ";
     std::cin >> user_name;
-    std::cout << max_value << std::endl;
     while(not_win)
     {
         std::cout << "Enter your guess: ";
