@@ -7,3 +7,4 @@ B 2
 vasili 4
 petro 5
 boris 5
+sfs 5

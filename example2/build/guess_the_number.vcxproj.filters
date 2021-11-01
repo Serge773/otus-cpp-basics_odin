@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="H:\UCHEBA\CPP\HWork\HWC1\otus-cpp-basics_odin\example2\guess_the_number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\UCHEBA\CPP\HWork\HWC1\otus-cpp-basics_odin\example2\add_the_entry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\UCHEBA\CPP\HWork\HWC1\otus-cpp-basics_odin\example2\check_value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\UCHEBA\CPP\HWork\HWC1\otus-cpp-basics_odin\example2\generate_number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\UCHEBA\CPP\HWork\HWC1\otus-cpp-basics_odin\example2\print_the_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="H:\UCHEBA\CPP\HWork\HWC1\otus-cpp-basics_odin\example2\add_the_entry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\UCHEBA\CPP\HWork\HWC1\otus-cpp-basics_odin\example2\check_value.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\UCHEBA\CPP\HWork\HWC1\otus-cpp-basics_odin\example2\generate_number.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\UCHEBA\CPP\HWork\HWC1\otus-cpp-basics_odin\example2\print_the_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\UCHEBA\CPP\HWork\HWC1\otus-cpp-basics_odin\example2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2888EECA-D4A0-3B3C-B209-B85C88C9B5DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{16B07473-C777-3CDB-BADB-11A7E2B8598B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
