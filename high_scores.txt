@@ -1,0 +1,13 @@
+B 4
+B 3
+C 7
+C 2
+vasili 33
+vasili 5
+petro 5
+boris 5
+sfs 12
+serge 5
+serge 4
+serge 2
+petro 3
