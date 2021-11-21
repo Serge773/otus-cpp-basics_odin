@@ -25,8 +25,7 @@ void print_the_palyerList()
 			if (file_in.fail()) {
 				break;
 		    }
-            
-            //std::cout << players_name << '\t' << score << std::endl;
+
         }
     }
     else
