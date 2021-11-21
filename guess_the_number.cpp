@@ -28,13 +28,13 @@ int main (int argc, char** argv)
        }
        std::string arg_value{ argv[1] };
 
-       if (arg_value == "-max")
+       if (arg_value == "-max")//Кейс с использованием ключа мах
        {
-            max_value_devider = std::stoi(argv[2]); 
+            max_value_devider = std::stoi(argv[2]); //назначаем максимальный лимит рандомного числа
             normal_gameflow = true;
        }
 
-       if (arg_value == "-level")
+       if (arg_value == "-level")//Кейс с использованием ключа level
        {
            int commandline_value = std::stoi(argv[2]); 
            switch(commandline_value)

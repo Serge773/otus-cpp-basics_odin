@@ -2,10 +2,12 @@
 
 #include <iostream>
 #include <fstream>
+#include <map>
 #include <string>
 
 std::string players_name;
 int score;
+std::map<std::string, int> the_Players_list;
 
 void print_the_palyerList()
 {
@@ -18,11 +20,13 @@ void print_the_palyerList()
 			file_in >> score;
 			file_in.ignore();
 
+            the_Players_list[players_name] = score;
+
 			if (file_in.fail()) {
 				break;
 		    }
             
-            std::cout << players_name << '\t' << score << std::endl;
+            //std::cout << players_name << '\t' << score << std::endl;
         }
     }
     else
@@ -31,4 +35,9 @@ void print_the_palyerList()
     }
 
     file_in.close();
+
+    for(std::map<std::string, int> :: iterator it= the_Players_list.begin(); it != the_Players_list.end(); it++)
+    {
+        std::cout << it->first << " \t" << it->second << std::endl;
+    }
 }

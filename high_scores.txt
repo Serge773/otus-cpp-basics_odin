@@ -9,3 +9,5 @@ boris 5
 sfs 12
 serge 5
 serge 4
+serge 2
+petro 3

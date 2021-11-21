@@ -22,5 +22,8 @@ bool contains_incompatible_values(int argc, char** argv)
     if(max_option == "-max" && level_option == "-level")
         incompatible = true;
 
+    if(max_option == "-level" && level_option == "-max")
+        incompatible = true;
+
     return incompatible;
 }
