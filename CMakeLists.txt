@@ -6,13 +6,10 @@ add_executable(
 	guess_the_number
 	guess_the_number.cpp
 	add_the_entry.cpp
-	add_the_entry.h
 	check_value.cpp
-	check_value.h
 	generate_number.cpp
-	generate_number.h
 	print_the_list.cpp
-	print_the_list.h
+	error_check.cpp
 )
 
 set_target_properties(

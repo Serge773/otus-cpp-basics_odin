@@ -9,6 +9,5 @@ int calculate_the_number(int devider)
 {
     std::srand(std::time(nullptr));
     const int random_value = std::rand() % devider;
-
     return random_value;
 }

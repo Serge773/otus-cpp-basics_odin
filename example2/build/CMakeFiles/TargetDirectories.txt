@@ -1,3 +1,0 @@
-H:/UCHEBA/CPP/HWork/HWC1/otus-cpp-basics_odin/example2/build/CMakeFiles/guess_the_number.dir
-H:/UCHEBA/CPP/HWork/HWC1/otus-cpp-basics_odin/example2/build/CMakeFiles/ALL_BUILD.dir
-H:/UCHEBA/CPP/HWork/HWC1/otus-cpp-basics_odin/example2/build/CMakeFiles/ZERO_CHECK.dir
